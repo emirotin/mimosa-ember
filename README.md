@@ -91,7 +91,7 @@ Explanation:
 
 1. we require ember to load and wait for compiled templates. We are not using these templates directly though have to wait for them to be ready
 2. we create Ember View
-3. we attach our statis data (our template language and CSS pre-processor) to the view object to be available in the template
+3. we attach our static data (our template language and CSS pre-processor) to the view object to be available in the template
 4. we implicitly return this view object as module exports
 
 We don't have to explicitly define our template — Ember is quite good with guessing it by name.
