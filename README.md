@@ -4,8 +4,7 @@ This is a sample repository demonstrating how to start working with Mimosa.js an
 
 We create a sample mimosa project and then adapt it for Ember.
 
-## Create skeleton
-
+## Create new project
 
 `$ mimosa new mimosa-ember`
 
