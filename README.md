@@ -1,6 +1,6 @@
 # Mimosa + Ember
 
-This is a sample repository indicating how to start working with Mimosa.js and Ember.
+This is a sample repository demonstrating how to start working with Mimosa.js and Ember.
 
 We create a sample mimosa project and then adapt it for Ember.
 
