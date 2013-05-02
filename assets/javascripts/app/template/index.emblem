@@ -1,0 +1,5 @@
+.template This is coming from a {{view.name}} template
+.helper {{example-helper}}
+= partial example_partial
+= partial another-example
+.styled And it has all been styled (poorly) using {{view.css}}
