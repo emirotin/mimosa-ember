@@ -1,20 +1,12 @@
 {
   "name": "mimosa-ember",
-  "version": "0.0.1",
-  "homepage": "",
-  "author": "",
-  "description": "",
-  "contributors": [
-    {
-      "name": "",
-      "email": ""
-    }
-  ],
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "express": "3.1.0",
-    "coffee-script": "1.6.2",
-    "consolidate": "0.8.0",
-    "jade": "0.28.2"
+    "consolidate": "~0.9.1",
+    "coffee-script": "~1.6.2",
+    "handlebars": "~1.0.10",
+    "express": "~3.2.4",
+    "jade": "~0.30.0"
   }
 }
