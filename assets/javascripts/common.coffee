@@ -1,5 +1,4 @@
 requirejs.config
-  #urlArgs: "b=" + ((new Date()).getTime())
   shim:
     handlebars:
       deps: []
@@ -8,7 +7,6 @@ requirejs.config
       deps: ["handlebars", "jquery"]
       exports: "Ember"
   paths:
-    #libs
-    jquery: "vendor/jquery"
-    handlebars: "vendor/handlebars"
-    ember: "vendor/ember"
+    jquery: "vendor/jquery/jquery"
+    handlebars: "vendor/handlebars/handlebars"
+    ember: "vendor/ember-shim/ember"

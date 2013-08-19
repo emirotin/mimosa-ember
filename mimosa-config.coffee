@@ -1,5 +1,5 @@
 exports.config =
-  minMimosaVersion:"0.12.6"  # 0.12.6 required for handlebars lib switching
+  minMimosaVersion:"0.14.14"
   template:
     handlebars:
       lib: require('handlebars')
