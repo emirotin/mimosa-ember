@@ -1,7 +1,7 @@
 [
-  "assets/javascripts/vendor/handlebars/handlebars.js",
-  "assets/javascripts/vendor/handlebars/handlebars.runtime.js",
   "assets/javascripts/vendor/jquery/jquery.js",
+  "assets/javascripts/vendor/ember-shim/ember.js",
   "assets/javascripts/vendor/requirejs/require.js",
-  "assets/javascripts/vendor/ember-shim/ember.js"
+  "assets/javascripts/vendor/handlebars/handlebars.js",
+  "assets/javascripts/vendor/handlebars/handlebars.runtime.js"
 ]

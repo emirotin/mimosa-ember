@@ -1,4 +1,5 @@
 {
+  "watch": true,
   "bowerDir": {
     "path": ".mimosa/bower/bower_components",
     "clean": true,

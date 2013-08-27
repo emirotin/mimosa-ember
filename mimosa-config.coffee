@@ -1,8 +1,10 @@
 exports.config =
-  minMimosaVersion:"0.14.14"
+  minMimosaVersion:"1.0.0"
+  compilers:
+    libs:
+      handlebars: require('handlebars')
   template:
     handlebars:
-      lib: require('handlebars')
       helpers: ["app/template/handlebars-helpers"]
       ember:
         enabled: true

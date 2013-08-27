@@ -4,7 +4,7 @@
   "dependencies": {
     "jquery": "2.0.3",
     "requirejs": "2.1.8",
-    "ember-shim":"1.0.0-rc.7",
+    "ember-shim":"1.0.0-rc.6",
     "handlebars":"1.0.0"
   }
 }
