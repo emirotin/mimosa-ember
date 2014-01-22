@@ -1,3 +1,5 @@
+> Note: the code was recently updated to support mimosa 2.0. This README is now ourdated and needs some fixes regarding `mimosa-config`. In a meanwhile check the `mimosa-config.coffee` file.
+
 # Mimosa + Ember
 
 This is a sample repository demonstrating how to start working with Mimosa.js and Ember.
