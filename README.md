@@ -24,12 +24,11 @@ Now stop mimosa (`Ctrl+C`).
 
 ### Enable Mimosa Ember support
 
-Edit `mimosa-config.coffee`:
-Uncomment the `template:` section and everything below `handlebars`.
+Edit `mimosa-config.js`.
 
-Set `ember.enabled` to `true`.
+Uncomment the ` emblem:` section.
 
-Also change `path: "vendor/ember"` to `path: "ember"` — we'll make it work soon.
+Change `emberPath: "vendor/ember"` to `emberPath: "ember"` — we'll make it work soon.
 
 ### Download Ember
 Go to <http://emberjs.com/> and download the **Starter Kit**. Unpack and copy `js/libs/ember-VERSION.js` and `js/libs/handlebars-VERSION.js` to your project's `assets/javascripts/vendor` directory renaming both files to simply `ember.js` and `handlebars.js`.
@@ -83,7 +82,7 @@ Rename `assets/javascripts/app/example-view.coffee` to `app-view.coffee` — th
 Edit its contents:
 
 	define ['ember', 'templates'], (Ember, templates) ->
-	
+
 	  ApplicationView = Ember.View.extend
 	    name: 'Emblem'
 	    css: 'sass'
@@ -153,11 +152,11 @@ The only change here — we reference Handlebars using the short path.
 ### `app/main.coffee`
 
 This is the glue file that export all app's views etc. Create `assets/javascripts/app/main.coffee`:
-	
+
 	define ['app/app-view'], (ApplicationView) ->
 	    App =
 	        ApplicationView: ApplicationView
-	        
+
 We export an object (`App`) that references our `ApplicationView` defined in `app/app-view`.
 
 ## Run Mimosa again
