@@ -1,4 +1,4 @@
-> Note: the code was recently updated to support mimosa 2.0. This README is now ourdated and needs some fixes regarding `mimosa-config`. In a meanwhile check the `mimosa-config.coffee` file.
+> Note: the code was recently updated to support mimosa 2.0. This README is now a bit outdated and needs some fixes regarding `mimosa-config`. In a meanwhile check the `mimosa-config.coffee` file.
 
 # Mimosa + Ember
 
