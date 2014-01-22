@@ -1,4 +1,4 @@
-> Note: the code was recently updated to support mimosa 2.0. This README was updted by something may have been missed. Please open the issue if you find obsolete parts.
+> Note: the code was recently updated to support mimosa 2.0. This README was updated but something may have been missed. Please open the issue if you find obsolete / incorrect / missing parts.
 
 # Mimosa + Ember
 
