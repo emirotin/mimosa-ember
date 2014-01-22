@@ -1,0 +1,77 @@
+{
+  "shims": {
+    "/javascripts/common.js": {
+      "handlebars": {
+        "deps": [],
+        "exports": "Handlebars"
+      },
+      "ember": {
+        "deps": [
+          "handlebars",
+          "jquery"
+        ],
+        "exports": "Ember"
+      }
+    }
+  },
+  "deps": {
+    "/javascripts/app/app-view.js": [
+      "ember",
+      "templates"
+    ],
+    "/javascripts/app/main.js": [
+      "app/app-view"
+    ],
+    "/javascripts/app/template/handlebars-helpers.js": [
+      "handlebars"
+    ],
+    "/javascripts/common.js": [],
+    "/javascripts/main.js": [
+      "common",
+      "app/main",
+      "ember"
+    ],
+    "/javascripts/templates.js": [
+      "ember",
+      "app/template/handlebars-helpers"
+    ],
+    "/javascripts/vendor/handlebars.js": []
+  },
+  "aliases": {
+    "/javascripts/common.js": {
+      "jquery": "vendor/jquery/jquery",
+      "handlebars": "vendor/handlebars/handlebars",
+      "ember": "vendor/ember-shim/ember"
+    }
+  },
+  "mappings": {
+    "/javascripts/common.js": null
+  },
+  "packages": {
+    "/javascripts/common.js": null
+  },
+  "originalConfig": {
+    "shim": {
+      "handlebars": {
+        "deps": [],
+        "exports": "Handlebars"
+      },
+      "ember": {
+        "deps": [
+          "handlebars",
+          "jquery"
+        ],
+        "exports": "Ember"
+      }
+    },
+    "paths": {
+      "jquery": "vendor/jquery/jquery",
+      "handlebars": "vendor/handlebars/handlebars",
+      "ember": "vendor/ember-shim/ember"
+    }
+  },
+  "requireFiles": [
+    "/javascripts/common.js",
+    "/javascripts/main.js"
+  ]
+}

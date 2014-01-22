@@ -1,11 +1,18 @@
 exports.config =
-  minMimosaVersion:"1.0.0"
-  compilers:
-    libs:
-      handlebars: require('handlebars')
-  template:
-    handlebars:
-      helpers: ["app/template/handlebars-helpers"]
-      ember:
-        enabled: true
-        path: "ember"
+  minMimosaVersion:"2.0.0"
+  modules:[
+    'jshint'
+    'csslint'
+    'server'
+    'require'
+    'minify-js'
+    'minify-css'
+    'live-reload'
+    'copy'
+    'emblem'
+    'coffeescript'
+    'sass']
+  emblem:
+    lib: require('emblem')
+    handlebars: require('handlebars')
+    emberPath: 'ember'
