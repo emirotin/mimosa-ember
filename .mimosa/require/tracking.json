@@ -34,8 +34,7 @@
     "/javascripts/templates.js": [
       "ember",
       "app/template/handlebars-helpers"
-    ],
-    "/javascripts/vendor/handlebars.js": []
+    ]
   },
   "aliases": {
     "/javascripts/common.js": {
